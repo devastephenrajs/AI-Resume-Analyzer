@@ -6,7 +6,7 @@ import {
   ResponsiveContainer, Cell
 } from 'recharts';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://ai-resume-analyzer-backend-afix.onrender.com/api';
 
 export default function Compare() {
   const [file1, setFile1] = useState(null);

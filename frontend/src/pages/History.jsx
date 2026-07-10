@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://ai-resume-analyzer-backend-afix.onrender.com/api';
 
 export default function History() {
   const [analyses, setAnalyses] = useState([]);

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://ai-resume-analyzer-backend-afix.onrender.com/api';
 
 export default function Upload() {
   const [file, setFile] = useState(null);
